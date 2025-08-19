@@ -360,7 +360,7 @@ export default {
           {
             label: "CM规则",
             options: [
-              
+              {
                 label: "shellcrash",
                 value: "https://github.com/juewuy/ShellCrash/raw/master/rules/ShellClash.ini"
               },
@@ -1319,6 +1319,7 @@ export default {
   }
 };
 </script>
+
 
 
 
