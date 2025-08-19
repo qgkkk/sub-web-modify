@@ -338,6 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
+          "自用专属后端": "https://25500.423978.xyz:8888",// 为您的后端取名
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -359,6 +360,10 @@ export default {
           {
             label: "CM规则",
             options: [
+              {
+                label: "shellcrash",
+                value: "https://github.com/juewuy/ShellCrash/raw/master/rules/ShellClash.ini"
+              },
               {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
@@ -1310,3 +1315,4 @@ export default {
   }
 };
 </script>
+
