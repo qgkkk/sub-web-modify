@@ -360,6 +360,10 @@ export default {
           {
             label: "CM规则",
             options: [
+              
+                label: "shellcrash",
+                value: "https://github.com/juewuy/ShellCrash/raw/master/rules/ShellClash.ini"
+              },
               {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
@@ -1315,5 +1319,6 @@ export default {
   }
 };
 </script>
+
 
 
